@@ -1,0 +1,8 @@
+# data
+./data/*
+
+# models
+./models/*
+
+# env
+.env
