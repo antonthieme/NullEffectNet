@@ -6,21 +6,22 @@ A deep learning framework for predicting gene perturbation effects using differe
 
 NullEffectNet is designed to predict the effect significance of CRISPR perturbations of different target genes. The framework supports multiple model architectures:
 
-    MLP (Multi-Layer Perceptron)
-    GNN (Graph Neural Network)
-    GNN with Attention mechanisms
+- MLP (Multi-Layer Perceptron)
+- GNN (Graph Neural Network)
+- GNN with Attention mechanisms
 
 The framework can be used with different pre-trained embeddings of genes. Currently implemented are:
 
-    ESM
-    SubCell
-    PINNACLE
+- ESM
+- SubCell
+- PINNACLE
 
 The framework can additionally be used with different biological networks. Currently implemented is only a protein-protein interaction based network.
 
 ## Environment setup with Conda etc.
-conda env create -f environment.yml
-conda activate nen_env
+
+    conda env create -f environment.yml
+    conda activate nen_env
 
 ## Notebooks
 
