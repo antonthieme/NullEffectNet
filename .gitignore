@@ -6,3 +6,16 @@
 
 # env
 .env
+
+# logs
+./logs/*
+
+# figures
+./figures/*
+
+# data files
+*.pt
+*.csv
+
+# external code
+*/external/*
