@@ -47,3 +47,9 @@ The core code of NullEffectNet can be found in in src/null-effect-net directory 
 - dataset: dataset classes for each model and their collate function
 - train_utils: utility functions for training and evaluating models
 - utils: general utility functions mostly used during preprocessing
+
+## Data
+
+To reproduce results from sections after the preprocessing steps, data can be downloaded here: https://doi.org/10.6084/m9.figshare.28942667
+
+Extract and save the 'minimal' directory with new name 'data' in the root directory of the project.
